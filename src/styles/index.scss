@@ -3,6 +3,7 @@
 
 $eventWidth: 760px;
 $primaryColor: #642fff;
+$primaryColorGradientEnd: #642fff;
 $textColor: #000;
 $fontRegular: 'Gilroy-Regular', 'sans-serif';
 $fontBold: 'Gilroy-Bold', 'sans-serif';
@@ -232,7 +233,7 @@ img {
     border-color: #642fff;
 
     &:hover {
-      background-color: $primaryColor;
+      background: linear-gradient(0deg, $primaryColor 0%, $primaryColorGradientEnd 100%);
       color: white;
     }
   }

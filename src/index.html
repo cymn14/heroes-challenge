@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Implementation of a screen design as part of a challenge for an awesome job at Digital Heroes">
     <title>Heroes Challenge</title>
 </head>
 <body>
 
 <main class="module m-events">
-    <h2 class="m-events__title">Kinderevents</h2>
+    <h1 class="m-events__title">Kinderevents</h1>
+
     <div class="m-events__container">
         <article class="m-events__event event">
-
-            <!--            todo: srcset-->
-            <img class="event__picture" src="assets/images/module-image-1.jpg" alt="Pink roller skates">
+            <img
+                class="event__picture"
+                src="assets/images/pink_rollerskates.jpg"
+                alt="Pink roller skates">
 
             <div class="event__info-wrap event-info">
                 <div class="event-info__date">
@@ -27,9 +30,9 @@
                 </div>
 
                 <div class="event-info__content-wrap">
-                    <h4 class="event-info__title">
+                    <h2 class="event-info__title">
                         Zeig was du drauf hast! Ab auf die Candy-Rollschuhbahn.
-                    </h4>
+                    </h2>
 
                     <div class="event-info__time time">
                         <div class="time__icon">
@@ -38,7 +41,10 @@
                             </svg>
                         </div>
                         <div class="time__content">
-                            <time>10.00</time> – <time>10.00</time> Uhr
+                            <time>10.00</time>
+                            –
+                            <time>10.00</time>
+                            Uhr
                         </div>
                     </div>
 
@@ -55,6 +61,7 @@
             </a>
         </article>
     </div>
+
     <div class="m-events__actions">
         <a class="btn btn--primary" href="/">
             Eventkalender anzeigen
