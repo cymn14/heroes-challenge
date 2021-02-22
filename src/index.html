@@ -1,12 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de-CH">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Heroes Challenge</title>
 </head>
 <body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
+
+<main class="module m-events">
+    <h2 class="m-events__title">Kinderevents</h2>
+    <div class="m-events__container">
+        <article class="m-events__event event">
+
+            <!--            todo: srcset-->
+            <img class="event__picture" src="assets/images/module-image-1.jpg" alt="Pink roller skates">
+
+            <div class="event__info-wrap event-info">
+                <div class="event-info__date">
+                    <div>
+                        <time datetime="2021-03-10">10.03.</time>
+                        <span>–</span>
+                    </div>
+                    <div>
+                        <time datetime="2021-03-28">28.03.</time>
+                    </div>
+                </div>
+
+                <div class="event-info__content-wrap">
+                    <h4 class="event-info__title">
+                        Zeig was du drauf hast! Ab auf die Candy-Rollschuhbahn.
+                    </h4>
+
+                    <div class="event-info__time time">
+                        <div class="time__icon">
+                            <svg viewBox="0 0 40 40">
+                                <use xlink:href='assets/icons/clock.svg#path'></use>
+                            </svg>
+                        </div>
+                        <div class="time__content">
+                            <time>10.00</time> – <time>10.00</time> Uhr
+                        </div>
+                    </div>
+
+                    <div class="event-info__description">
+                        Mit tollem Wettbewerb für grosse und kleine Rollschuh-Profis
+                    </div>
+                </div>
+            </div>
+
+            <a href="/" class="event__action action-icon">
+                <svg class="action-icon__svg" viewBox="0 0 40 30">
+                    <use xlink:href='assets/icons/arrow-right.svg#path'></use>
+                </svg>
+            </a>
+        </article>
+    </div>
+    <div class="m-events__actions">
+        <a class="btn btn--primary" href="/">
+            Eventkalender anzeigen
+        </a>
+    </div>
+</main>
 </body>
 </html>

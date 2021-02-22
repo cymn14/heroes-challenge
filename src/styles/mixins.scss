@@ -1,0 +1,18 @@
+$breakpointSmall: 500px;
+$breakpointMedium: 768px;
+
+@mixin breakpointSmall() {
+  @media screen and (min-width: $breakpointSmall) {
+    @content;
+  }
+}
+
+@mixin breakpointMedium() {
+  @media screen and (min-width: $breakpointMedium) {
+    @content;
+  }
+}
+
+@mixin transition($x...) {
+  transition: $x;
+}
