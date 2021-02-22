@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Implementation of a screen design as part of a challenge for an awesome job at Digital Heroes">
+    <title>Heroes Challenge</title>
+</head>
+<body>
+
+<main class="module m-events">
+    <h1 class="m-events__title">Kinderevents</h1>
+
+    <div class="m-events__container">
+        <article class="m-events__event event">
+            <img
+                class="event__picture"
+                src="assets/images/pink_rollerskates.jpg"
+                alt="Pink roller skates">
+
+            <div class="event__info-wrap event-info">
+                <div class="event-info__date">
+                    <div>
+                        <time datetime="2021-03-10">10.03.</time>
+                        <span>–</span>
+                    </div>
+                    <div>
+                        <time datetime="2021-03-28">28.03.</time>
+                    </div>
+                </div>
+
+                <div class="event-info__content-wrap">
+                    <h2 class="event-info__title">
+                        Zeig was du drauf hast! Ab auf die Candy-Rollschuhbahn.
+                    </h2>
+
+                    <div class="event-info__time time">
+                        <div class="time__icon">
+                            <svg viewBox="0 0 40 40">
+                                <use xlink:href='assets/icons/clock.svg#path'></use>
+                            </svg>
+                        </div>
+                        <div class="time__content">
+                            <time>10.00</time>
+                            –
+                            <time>10.00</time>
+                            Uhr
+                        </div>
+                    </div>
+
+                    <div class="event-info__description">
+                        Mit tollem Wettbewerb für grosse und kleine Rollschuh-Profis
+                    </div>
+                </div>
+            </div>
+
+            <a href="/" class="event__action action-icon">
+                <svg class="action-icon__svg" viewBox="0 0 40 30">
+                    <use xlink:href='assets/icons/arrow-right.svg#path'></use>
+                </svg>
+            </a>
+        </article>
+    </div>
+
+    <div class="m-events__actions">
+        <a class="btn btn--primary" href="/">
+            Eventkalender anzeigen
+        </a>
+    </div>
+</main>
+</body>
+</html>
